@@ -1,2 +1,16 @@
-
-
+#head{
+height: 70px;
+background: -webkit-linear-gradient(180deg, #270EC5, #ffff);
+}
+#imagenLogo, #imga{
+height: 70px;
+width: 100px;
+margin-left: 15px;
+}
+#headDiv{
+margin-left: 20px;
+font-family: monospace;;
+}
+ul.nav{
+    --bs-nav-link-color: black !important;
+}
