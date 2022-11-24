@@ -1,16 +1,50 @@
-#head{
-height: 70px;
-background: -webkit-linear-gradient(180deg, #270EC5, #ffff);
+#head {
+    height: 70px;
+    background: -webkit-linear-gradient(180deg, #16096A, #ffff);
 }
-#imagenLogo, #imga{
-height: 70px;
-width: 100px;
-margin-left: 15px;
+main{
+    background: -webkit-linear-gradient(180deg, #16096A, #ffff);
 }
-#headDiv{
-margin-left: 20px;
-font-family: monospace;;
+#imagenLogo,
+#imga {
+    height: 70px;
+    width: 100px;
+    margin-left: 15px;
 }
-ul.nav{
+
+#headDiv {
+    margin-left: 20px;
+    font-family: monospace;
+    ;
+}
+
+ul.nav {
     --bs-nav-link-color: black !important;
+}
+
+#login,
+#alog,#text {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: monospace;
+}
+#tomandoIMG{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    margin: 0 10px;
+}
+
+#compra{
+    margin-left: 40%;
+}
+#mainIm, #text{
+    margin-right: 5%;
+    margin-top: 10%;
+    text-align: justify;
 }
