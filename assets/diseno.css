@@ -10,18 +10,19 @@ main{
     height: 70px;
     width: 100px;
     margin-left: 15px;
+    margin-top: 10px;
 }
 
-#headDiv {
+#headDiv, #login {
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
+    margin-top: 6% !important;
 }
 
 ul.nav {
     --bs-nav-link-color: #fff !important;
 }
-
 #login,
 #alog,#text {
     color: aliceblue;
@@ -32,6 +33,7 @@ ul.nav {
 #tomandoIMG{
     width: 100%;
     height: 100%;
+    margin-left: 10%;
 }
 .container{
     margin-top: 10%;
@@ -72,16 +74,27 @@ ul.nav {
     display:block;
     margin:auto;
  }
- p{
+ p, a, i{
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 0;
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 1rem;
+    text-align: justify;
  }
  @media (min-width: 1200px) {
     .container{
         max-width: 1140px !important;
     }
+ }
+ #icomo, img{
+    width: 80px;
+    height: 80px;
+ }
+ footer{
+    background: #AEB6BF  ; 
+ }
+.card{
+    background: #AEB6BF !important ; 
  }
