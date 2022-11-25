@@ -1,9 +1,9 @@
 #head {
     height: 70px;
-    background: -webkit-linear-gradient(180deg, #16096A, #ffff);
+    background-color:#1B2631  ;
 }
 main{
-    background: -webkit-linear-gradient(180deg, #16096A, #ffff);
+    background: #1B2631  ;
 }
 #imagenLogo,
 #imga {
@@ -14,19 +14,20 @@ main{
 
 #headDiv {
     margin-left: 20px;
-    font-family: monospace;
-    ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 
 ul.nav {
-    --bs-nav-link-color: black !important;
+    --bs-nav-link-color: #fff !important;
 }
 
 #login,
 #alog,#text {
     color: aliceblue;
     text-decoration: none;
-    font-family: monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
 }
 #tomandoIMG{
     width: 100%;
@@ -48,3 +49,39 @@ ul.nav {
     margin-top: 10%;
     text-align: justify;
 }
+#ofertas{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#rowOferta{
+    margin-top: 70px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+    height: auto;
+ }
+ #pilsener, #corona{
+    width: 80%;
+    height: 80%;
+    display:block;
+    margin:auto;
+ }
+ p{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+ }
+ @media (min-width: 1200px) {
+    .container{
+        max-width: 1140px !important;
+    }
+ }
