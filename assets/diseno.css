@@ -53,7 +53,7 @@ ul.nav {
 }
 #ofertas{
     text-align: center;
-    background-color: aliceblue;
+    background-color: #CCD1D1;
     color: black;
     font-style: oblique;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -97,4 +97,7 @@ ul.nav {
  }
 .card{
     background: #AEB6BF !important ; 
+ }
+ .card-title {
+    text-align: center;
  }
