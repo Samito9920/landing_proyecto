@@ -10,7 +10,6 @@ main{
     height: 70px;
     width: 100px;
     margin-left: 15px;
-    margin-top: 10px;
 }
 
 #headDiv, #login {
@@ -82,6 +81,10 @@ ul.nav {
     margin-left: 2rem;
     margin-right: 1rem;
     text-align: justify;
+    text-decoration: none !important;
+ }
+ a{
+    font-size: 12px;
  }
  @media (min-width: 1200px) {
     .container{
@@ -101,3 +104,18 @@ ul.nav {
  .card-title {
     text-align: center;
  }
+#registro{
+    background: #909497  ;
+}
+.form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .label{
+    margin-top: 10px;
+  }
